@@ -1,0 +1,273 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my styling */
+
+
+#header{
+    background-color: blue;
+    height: 7em;
+    width: 23.5em;
+    padding-top: 2em;
+}
+#company{
+    color: white;
+    margin-left: 0.5em;
+    font-size: xx-large;
+    /* margin-top: 10PX; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav{
+    color: white;
+    font-size: x-large;
+    margin-left: 11em;
+    list-style-type: none;
+}
+li{
+    color: white;
+}
+li:hover{
+    color: red;
+}
+#filter{
+    margin-top: 1em;
+}
+#label{
+    font-size: x-large;
+    margin-left: 0.5em;
+}
+#input{
+    /* margin-top: 1em; */
+    width: 18em;
+    height: 2.5em;
+    border: 1.5px solid black;
+    border-radius: 0.5em;
+}
+/* #para{
+   border: 2px solid black;
+   width: 20em;
+   height: 3em; 
+} */
+#about{
+    border: 2px solid blue;
+    width: 20em;
+    border-radius: 1em;
+    margin-left: 0.7em;
+    height: 10.7em;
+    padding: 1em;
+    text-align: justify;
+}
+#about1{
+    border: 2px solid blue;
+    width: 20em;
+    border-radius: 1em;
+    /* margin-left: 45em;
+    margin-top: -15.3em; */
+    height: 15em;
+    text-align: justify;
+    margin-left: 0.7em;
+    margin-top: 1em;
+    padding: 1em;
+}
+#all_about{
+    margin-top: 3em;
+}
+#us{
+    text-align: center;
+    font-size: xx-large;
+}
+.telecon{
+    font-size: large;
+}
+#product{
+    margin-left: 3em;  
+    margin-top: 1em; 
+    font-size: xx-large;
+}
+#table{
+    /* border: 2px solid black; */
+    width: 23.5em;
+    border-collapse:collapse;
+}
+th{
+    font-size: x-large;
+
+}
+td{
+    font-size: larger;
+    text-align: center;
+}
+.image{
+    height: 80px;
+    width: 90px;
+}
+#footer{
+    height: 10em;
+    background-color: blue;
+    margin-top: 1em;
+}
+.icon{
+    width: 3em;
+    height: 3em;
+    margin-top: 1em;
+    margin-left: 2em;
+    border: 1px hidden white;
+    border-radius: 1em;
+}
+.p-footer{
+    margin-top: -4.5em;
+}
+
+
+@media screen and (min-width: 510px ) {
+    #header{
+        background-color: blue;
+        height: 7em;
+        padding-top: 3.5em;
+        width: 93em;
+    }
+    tr, td, th{
+        border: 2px solid black;
+    }
+    #company{
+        color: white;
+        margin-left: 0.5em;
+        margin-top: -10PX;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav{
+        color: white;
+        font-size: larger;
+        margin-left: 55em;
+        display: inline-block;
+        list-style-type: none;
+        /* position: absolute; */
+    }
+    a{
+        color: white;
+    }
+    a:hover{
+        color: red;
+    }
+    #label{
+        font-size: xx-large;
+        margin-top: 10em;
+    }
+    #input{
+        margin-top: 3em;
+        width: 31em;
+        height: 2.5em;
+        border: 1.5px solid black;
+        border-radius: 0.5em;
+    }
+    /* #para{
+       border: 2px solid black;
+       width: 30em;
+       height: 4em; 
+    } */
+    #about{
+        border: 2px solid blue;
+        width: 36em;
+        border-radius: 1em;
+        margin-left: 5em;
+        height: 10em;
+        padding: 1em;
+    }
+    #about1{
+        border: 2px solid blue;
+        width: 40em;
+        border-radius: 1em;
+        margin-left: 47em;
+        margin-top: -12.3em;
+        height: 10em;
+        padding: 1em;
+    }
+    #all_about{
+        margin-top: 3em;
+    }
+    #us{
+        text-align: center;
+    }
+    .telecon{
+        font-size: larger;
+    }
+    #product{
+        /* margin-left: 3em;   */
+        margin-top: 2em; 
+        text-align: center;
+    }
+    #table{
+        /* border: 2px solid black; */
+        width: 88em;
+        border-collapse:collapse;
+        margin-left: 3em;
+    }
+    th{
+        font-size: x-large;
+        
+    }
+    td{
+        font-size: larger;
+        text-align: center;
+    }
+    .image{
+        width: 6em;
+        height: 5em;
+        /* visibility: visible; */
+    } 
+    .icon{
+        margin-left: 1em;
+        border: 1px hidden white;
+        border-radius: 1em;
+    }
+    #icons{
+        margin-left: 1em;
+        /* margin-bottom: -2em; */
+    }
+    .p-footer{
+        margin-left: 60em;
+        /* margin-top: -1em; */
+    }
+}
